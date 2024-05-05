@@ -1,0 +1,47 @@
+/* Styles for the login form */
+.form {
+  max-width: 800px;
+
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.hbutton {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hbutton:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 400px) {
+  form {
+    width: 90%;
+  }
+}
+
+.center {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
